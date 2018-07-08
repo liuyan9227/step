@@ -55,3 +55,20 @@ git pull origin master
 
 项目中 --> Settings --> Collaborators --> 用户名or邮箱
 
+## 常用命令
+
+```java
+git status		-- 查看状态
+git add . 		-- 添加至缓存区
+git commit -m "日志"		-- 提交至本地仓库
+git rm 文件名			-- 删除文件
+git rm --cached 文件		-- 不管理此项目
+git mv old new		-- 重命名
+git log			-- 查看日志
+git reset --hard 7位版本号		-- 回退版本
+git reset head 文件		-- 暂存退回已修改
+git checkout --文件		-- 已修改退回未修改
+git push origin master		-- 提交远程仓库
+git pull origin master		-- 下载远程仓库
+```
+
