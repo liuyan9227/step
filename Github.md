@@ -70,5 +70,6 @@ git reset head 文件		-- 暂存退回已修改
 git checkout --文件		-- 已修改退回未修改
 git push origin master		-- 提交远程仓库
 git pull origin master		-- 下载远程仓库
+git remote rm origin		-- 解除远程仓库
 ```
 
