@@ -1,4 +1,4 @@
-# Github
+# **Github**
 
 ## 全局配置
 
@@ -9,12 +9,12 @@ git config --global useremail liuyan9227@163.com
 
 ## 创建本地仓库
 
-1. 创建本地仓库 git-workspace
-2. 并在cmder中执行 git init 初始化本地仓库
+1. 创建本地仓库 **git-workspace**
+2. 并在 **cmder** 中执行 **git init** 初始化本地仓库
 
 ## SSH地址
 
-获取github项目的ssh地址
+获取 **github**项目的**ssh**地址
 
 ## SSH key
 
@@ -24,11 +24,11 @@ ssh-keygen -t rsa -C "liuyan9227@163.com"
 
 ## id_rsa.pub
 
-复制公钥: C:/用户/Max/.ssh/id_rsa.pub
+复制公钥: **C:/用户/Max/.ssh/id_rsa.pub**
 
 ## Github设置公钥
 
-Setting --> SSH and GPG keys 中设置公钥
+**Setting --> SSH and GPG keys** 中设置公钥
 
 ## 添加远程仓库
 
@@ -53,7 +53,15 @@ git pull origin master
 
 ## 添加 (协作者)
 
-项目中 --> Settings --> Collaborators --> 用户名or邮箱
+项目中 --> **Settings** --> **Collaborators** --> 用户名 **or** 邮箱
+
+## 上传过滤
+
+**cmder ** 找到当前文件夹 --> 输入**: touch .gitignore** (创建文件) --> 编辑 **.gitignore** --> 
+
+文件夹类型 : **.idea/**
+
+文件类型 : ***.gitignore**
 
 ## 常用命令
 
