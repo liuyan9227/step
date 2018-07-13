@@ -57,7 +57,7 @@ git pull origin master
 
 ## 上传过滤
 
-**cmder ** 找到当前文件夹 --> 输入**: touch .gitignore**  (创建文件) --> 编辑 **.gitignore** --> 
+**cmder ** 找到当前文件夹 --> 输入: **touch .gitignore**  (创建文件) --> 编辑 **.gitignore** --> 
 
 文件夹类型 : **.idea/**
 
